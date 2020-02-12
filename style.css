@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+}
+
+#view-highscores {
+    margin-left: 0.25em;
+    color: blue;
+}
+
+#time-left {
+    position: absolute;
+    top: 0.2em;
+    right: 1em;
+    font-weight: bold;
+}
+
+#choices {
+    display: none;
+    flex-direction: column;
+    width: 20%;
+}
+
+#button1, #button2, #button3, #button4 {
+    margin-top: 8px;
+    text-align: left;
+}
+
+#right-or-wrong {
+    display: none;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 20px;
+    /* color: #e01d34; */
+}
+
+#form {
+    display: none;
+}
+
+#initials {
+    width: 30%;
+}
+
+#go-back {
+    display: none;
+}
+
+button a {
+    color: white;
+}
+
+input {
+    margin-left: 10px;
+}
+
+ol {
+    font-weight: 600;
+    font-size: 25px;
+    color: #007bff;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
